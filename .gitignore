@@ -41,3 +41,6 @@ yarn-error.log*
 
 # claude local settings
 .claude/settings.local.json
+
+# typescript incremental build
+tsconfig.tsbuildinfo
