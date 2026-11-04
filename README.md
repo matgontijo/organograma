@@ -1,11 +1,17 @@
 # TRK · Mapa Patrimonial Interativo
 
+Interactive graph editing with deterministic layout evaluation, persistence, export and domain-quality checks.
+
+Technical evidence, validation and limitations: [portfolio notes](docs/PORTFOLIO.md).
+
 Diagrama patrimonial interativo e altamente personalizável da TRK: cada **card** é uma
 empresa, imóvel, veículo, seguro ou pessoa — com sócios/percentuais, links clicáveis e
 personalização visual total. Inclui um **Agente de Testes/QA** que valida a integridade
 dos dados e serve de _gate_ de qualidade para o deploy.
 
-![Status](https://img.shields.io/badge/build-standalone-success) ![QA](https://img.shields.io/badge/QA-gate-blue) ![Coverage](<https://img.shields.io/badge/coverage-%E2%89%A580%25%20(lib)-brightgreen>)
+[![CI](https://github.com/matgontijo/organograma/actions/workflows/ci.yml/badge.svg)](https://github.com/matgontijo/organograma/actions/workflows/ci.yml)
+
+Coverage thresholds are configured in `vitest.config.ts`; consult the workflow results for measured coverage and browser-test status.
 
 ---
 
